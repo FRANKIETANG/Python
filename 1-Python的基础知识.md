@@ -493,3 +493,25 @@ print('-'.join(test1)) # a-b-c
 test2='a b c'
 print(test2.split(' ')) # ['a','b','c']
 ```
+
+## 对象
+
+```python
+class Food() :
+# 定义一个食物的类别
+    delicious = True
+    # 属性“好吃”为真
+    def taste(self,people) :
+    # 定义一个“品尝”的方法，参数有两个。其中self是系统预设关键词，代表的是这个对象本身，调用该方法时可省略这个参数的填写。
+    # people是吃食物的人。
+        print(people,'说：真香！')
+        # 输出people,'说：真香！'
+chaofan = Food()
+# 定义一个食物，炒饭
+print(type(chaofan))
+# 输出食物炒饭的数据类型
+print(chaofan.delicious)
+# 输出食物炒饭的 delicious 属性
+chaofan.taste('Frankie')
+# 调用品尝的方法，Frankie 吃掉炒饭
+```
