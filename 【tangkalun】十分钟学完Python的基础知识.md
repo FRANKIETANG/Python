@@ -1,4 +1,4 @@
-# 一点点 Python 的基础知识
+# 【tangkalun】十分钟学完 Python 的基础知识
 
 速度过一遍。
 
